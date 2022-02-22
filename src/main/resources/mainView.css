@@ -1,0 +1,37 @@
+#mainAnchorPane{
+    -fx-background-color: #6C757D;
+    -fx-border-color: black;
+}
+#lateral_menu{
+    -fx-background-color: #495057;
+    -fx-border-radius: 10px;
+    -fx-border-color: black;
+}
+
+Label{
+    -fx-text-fill: #F8F9FA;
+}
+Button{
+    -fx-background-color: #343A40;
+    -fx-text-fill: #a682ff;
+    -fx-border-color: #270140;
+}
+Button:hover{
+    -fx-background-color: #212529;
+}
+#lateral_menu Button:hover{
+    -fx-background-color: #212529;
+    -fx-font-size: 15px;
+    -fx-border-color: black;
+}
+
+#contactosfx{
+    -fx-background-color: #212529;
+}
+#contactosfx:hover{
+    -fx-text-fill: #5c1f88;
+}
+
+#exit{
+    -fx-text-fill: red;
+}

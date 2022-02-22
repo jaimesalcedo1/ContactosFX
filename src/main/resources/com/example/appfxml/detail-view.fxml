@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import org.kordamp.ikonli.javafx.FontIcon?>
+
+<AnchorPane id="back_button" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="650.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.appfxml.detailController">
+   <children>
+      <StackPane prefHeight="400.0" prefWidth="650.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" StackPane.alignment="TOP_CENTER">
+               <image>
+                  <Image url="@../../../user-default.png" />
+               </image>
+               <StackPane.margin>
+                  <Insets top="60.0" />
+               </StackPane.margin>
+            </ImageView>
+            <Label fx:id="namelabel" text="Nombre persona" StackPane.alignment="CENTER">
+               <StackPane.margin>
+                  <Insets top="60.0" />
+               </StackPane.margin>
+               <graphic>
+                  <FontIcon iconLiteral="bi-file-earmark-person" />
+               </graphic>
+            </Label>
+            <Label fx:id="maillabel" text="ejemplo@correo.com" StackPane.alignment="CENTER">
+               <StackPane.margin>
+                  <Insets top="120.0" />
+               </StackPane.margin>
+               <graphic>
+                  <FontIcon iconLiteral="bi-mailbox2" />
+               </graphic>
+            </Label>
+            <Label fx:id="moredatalabel" text="Otros datos">
+               <StackPane.margin>
+                  <Insets top="180.0" />
+               </StackPane.margin>
+               <graphic>
+                  <FontIcon iconLiteral="bi-plus-circle-fill" />
+               </graphic>
+            </Label>
+         </children>
+      </StackPane>
+   </children>
+</AnchorPane>
